@@ -1,0 +1,6 @@
+# Fichier Jekyll
+cours/_site
+cours/.sass-cache
+cours/.jekyll-cache
+cours/.jekyll-metadata
+cours/vendor
