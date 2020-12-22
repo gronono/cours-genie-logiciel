@@ -5,17 +5,5 @@ cache: bundler
 branches:
   only:
   - main
-before_install:
-  - cd cours
-  - gem update --system
-  - gem install bundler
 script:
-  - JEKYLL_ENV=production bundle exec jekyll build
-deploy:
-  provider: pages
-  skip-cleanup: true
-  local-dir: docs/_site
-  github-token: $GITHUB_TOKEN
-  target-branch: gh-pages
-  on:
-    branch: main
+  - build.sh
