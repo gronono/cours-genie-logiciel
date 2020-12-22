@@ -6,8 +6,7 @@ set -e
 
 # Build new site
 cd cours
-gem update --system
-gem install bundler
+bundle install
 JEKYLL_ENV=production bundle exec jekyll build
 
 # Delete previous pages
