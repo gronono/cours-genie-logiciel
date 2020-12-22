@@ -6,4 +6,4 @@ branches:
   only:
   - main
 script:
-  - build.sh
+  - ./build.sh
