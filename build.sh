@@ -5,7 +5,7 @@
 set -e
 
 # Build new site
-cd docs
+cd cours
 gem update --system
 gem install bundler
 JEKYLL_ENV=production bundle exec jekyll build
