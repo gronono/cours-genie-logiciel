@@ -12,7 +12,7 @@ bundle install
 JEKYLL_ENV=production bundle exec jekyll build
 
 # Delete previous pages
-git clone https://${GITHUB_TOKEN}@github.com/gronono/gronono/cours-genie-logiciel.git gh-pages
+git clone https://${GITHUB_TOKEN}@github.com/gronono/cours-genie-logiciel.git gh-pages
 cd gh-pages
 git checkout gh-pages
 rm -rf *
