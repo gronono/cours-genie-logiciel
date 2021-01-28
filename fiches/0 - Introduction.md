@@ -48,5 +48,5 @@ Journal officiel du 19/02/1984
 
 ## Le projet : Schotten Totem
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6ZfOKEh9amk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Règles Schotten Totem](https://img.youtube.com/vi/6ZfOKEh9amk/0.jpg)](https://www.youtube.com/watch?v=6ZfOKEh9amk)
 
