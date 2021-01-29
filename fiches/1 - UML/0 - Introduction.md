@@ -41,3 +41,8 @@
 
 * Étude de quelques diagrammes les plus utilisés (use-case, classe, séquence)
 * \+ Modèle Physique de Données (MERISE)
+
+## Exemples
+
+* Générer avec PlantUML : https://plantuml.com/fr/
+* Éditeur en ligne : http://www.plantuml.com/plantuml/
