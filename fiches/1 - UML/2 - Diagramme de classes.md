@@ -29,3 +29,9 @@
 ### Les attributs
 
 * syntaxe : \[\<visibilite>] \<nom> \[<multiplicité>] : \<type> \[= \<valeur par défaut>]
+* visibilité : + = public, # protected, ~ package, - private
+
+![visivilite](http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuKhEIImkLl2jT0RHDgvs2jLSkhcLZYKbHPb9fIMf0KMPPOabgGfM2i50aRnq1Li59O_Kd9ny9Ivb56Nv9Qd99QafG8MUUIMfwQb5N7N8yed9sOdf86DyCejBWDPmQIFBbYRbP2P76yS2vLs0jd7LSZcavgK0dGS0)
+
+## Les méthodes
+
