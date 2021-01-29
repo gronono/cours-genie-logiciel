@@ -1,14 +1,7 @@
-# Use Cases (Cas d'utilisation)
+# Diagramme des cas d'utilisation
 
-* Plus trop utilisé.
-* Remplacé les User Story en gestion de projet Scrum
-
-## Intérêts
-
-* Identifier les fonctionnalités
-* Identifier les acteurs
-* Identifier qui fait quoi
-* Identifier les relations entre les fonctionnalités
+* Permet d'identifier qui fait quoi dans le système
+* Relie les acteurs aux fonctionnalités
 
 ## Exemple
 
@@ -93,3 +86,12 @@
 * Doit faire l'objet d'une description pour expliciter quelle est la particularité.
 
 ![sterotype](http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuR8AhYmkERmYDrKXoCDAmSOcAp_9pauXiLYXA8FBoZsrk2GpFoylCRCe5IIPKPgRc9a7aIzEpi_XAifGqBLJq73CoYyjILKepLCeIqnEB04fr-G2AS0jwv2QbmAq7m00)
+
+## Recommandations
+
+* Ne pas surcharger le diagramme
+* Faire un diagramme général moins détaillé et des diagrammes spécifiques plus détaillés
+* Découper par sphère fonctionnelle
+* Le plus souvent les CUs sont décrits par la MOA
+* Toujours accompagner les fonctionnalités d'une description compléte du comment elle fonctionne.
+* Pour identifier les fonctionnalités : [Story Mapping](https://coach-agile.com/serious-game/story-mapping/)
