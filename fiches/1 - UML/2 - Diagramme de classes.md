@@ -40,6 +40,11 @@
 
 ![methodes](http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuKhEIImkLl2jT0RHDgvs2jLSskcf9NxvkHgQLWh19KMPUUbSkic9EScbEQb5Zkcf6Yc99QakfLxvfKLM2Yv0Db1PPbu9bt9gSOblObPgQH58Or9-VavgOXvNBPT3QbuAq280)
 
+### Attributs & méthodes statiques
+
+* l'attribut ou la méthode est soulignée
+
+![statique](http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuKhEIImkLl2jT0RJrLpLG9cIpEHQ1MrFl-0GHpzdLokOB5SjbqDgNWfG5m00)
 
 ## Relations entre les classes
 
@@ -81,6 +86,14 @@
 * Ne se traduit pas avec un attribut de classe
 
 ![dependance](http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuKhEIImkLd0jAKt9JCmhKQZcqar9B4drIymiBaxCIqwrKd01ShcqanDpaajpKeiSqrCrDAqKClDAk6gve9g1OivWwSII_2A5QbJ5QKNvkK0Ze0OXjC9jrDEpGpM1oo4rBmNeD000)
+
+## Autres notions
+
+* Packaque
+* Stéréotype
+* Notes
+
+![autres](http://www.plantuml.com/plantuml/svg/POv1QYin44JtEaNj_3yX5p36s93iWWda11rDUI8YjIPI2m9c3fHpv6A95XQ6x9egkjuxL9DYBKMtY7-NcLXOQbObBWu8QYndySJpRGpSpxHJJl_-R_5Y9UZiWDK1FagjEBvMA-9jFErs8yD-Zv2Mo4IrUhExkdL8qDeKH0sNiVbuZVXfrEaFP9XDOZn9g5NKSui7CVO2TrwYRv7bEBDx1pK7TAfc8qgOtmpvF40EJvlkOe5gy3ajHZGD7us9lPw8k17Lxo_sMwzCHvtGDztXzsef_W00)
 
 ### Exemple complet
 
