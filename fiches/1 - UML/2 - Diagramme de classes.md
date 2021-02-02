@@ -51,7 +51,7 @@
 ### Association
 
 * Relation structurelle entre les classes
-* Utilisée pour représenter les attributs qui sont des classes
+* Utilisée pour représenter les attributs qui sont des objets (l'attribut n'apparait pas dans la classe)
 * trait simple si birectionnelle
 * trait fléché si unidirectionnelle
 * possède une cardinalité (omise = 1). Peut être borné
