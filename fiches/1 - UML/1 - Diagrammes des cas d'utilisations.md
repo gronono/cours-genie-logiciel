@@ -95,3 +95,5 @@
 * Le plus souvent les CUs sont décrits par la MOA
 * Toujours accompagner les fonctionnalités d'une description compléte du comment elle fonctionne.
 * Pour identifier les fonctionnalités : [Story Mapping](https://coach-agile.com/serious-game/story-mapping/)
+
+## TD : Use-Cases de Schotten Totten

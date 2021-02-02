@@ -46,3 +46,5 @@
 
 * Générer avec PlantUML : https://plantuml.com/fr/
 * Éditeur en ligne : http://www.plantuml.com/plantuml/
+* Astuce : à partir du lien d'une image, changer svg par uml dans l'url pour retrouver l'éditeur
+

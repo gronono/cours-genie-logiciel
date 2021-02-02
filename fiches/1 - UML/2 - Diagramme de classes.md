@@ -31,7 +31,59 @@
 * syntaxe : \[\<visibilite>] \<nom> \[<multiplicité>] : \<type> \[= \<valeur par défaut>]
 * visibilité : + = public, # protected, ~ package, - private
 
-![visivilite](http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuKhEIImkLl2jT0RHDgvs2jLSkhcLZYKbHPb9fIMf0KMPPOabgGfM2i50aRnq1Li59O_Kd9ny9Ivb56Nv9Qd99QafG8MUUIMfwQb5N7N8yed9sOdf86DyCejBWDPmQIFBbYRbP2P76yS2vLs0jd7LSZcavgK0dGS0)
+![attributs](http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuKhEIImkLl2jT0RHDgvs2jLSkhcLZYKbHPb9fIMf0KMPPOabgGfM2i50aRnq1Li59O_Kd9ny9Ivb56Nv9Qd99QafG8MUUIMfwQb5N7N8yed9sOdf86DyCejBWDPmQIFBbYRbP2P76yS2vLs0jd7LSZcavgK0dGS0)
 
-## Les méthodes
+### Les méthodes
 
+* syntaxe : \[\<visibilite>] \<nom> ([argument1: type1, argument2: type2] : \<type> \[= \<valeur par défaut>]
+* visibilité : + = public, # protected, ~ package, - private
+
+![methodes](http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuKhEIImkLl2jT0RHDgvs2jLSskcf9NxvkHgQLWh19KMPUUbSkic9EScbEQb5Zkcf6Yc99QakfLxvfKLM2Yv0Db1PPbu9bt9gSOblObPgQH58Or9-VavgOXvNBPT3QbuAq280)
+
+
+## Relations entre les classes
+
+### Association
+
+* Relation structurelle entre les classes
+* Utilisée pour représenter les attributs qui sont des classes
+* trait simple si birectionnelle
+* trait fléché si unidirectionnelle
+* possède une cardinalité (omise = 1). Peut être borné
+* peut posséder un nom = nom de l'attribut
+* peut être associée à une classe d'association. Le trait de liaison est en pointillé
+
+![associations](http://www.plantuml.com/plantuml/svg/TO-n2i8m54NtznKXanORxEeW1N4N_O9WKmca2UJTDud_RhIn2E9suHmut9vXCsGAT0sMMHsIP5PtQds4XmItKnTa7s_qgCOffz4nEyalBQRfnpX21cyZ_l6pOmcmbQCanf0i2gSvtxPxfRV6TFghLfdkZ6bqKTv6evSQhJvhCxzOAxEag7TnA2-V)
+
+### Aggrégation
+
+* Notion de "composé de"
+
+![aggregation](http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuKhEIImkLd3BByfDBCdCprEevkAgvOAAkcGMvEJdfWB5u4BE-QL5nH01X1vTNJi59GCzFKCbc1OaIIL3FJqj9OLyNLqe4s86bqDgNWhG0G00)
+
+### Composition
+
+* Aggrégation avec une notion de cycle de vie.
+* L'objet ne peut pas vivre sans l'autre
+* le losange est plein
+
+![composition](http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuKhEIImkLWX8BIhEpyjBLQZcughbWWewfXIb5XS3nK12S1LQkdOm6Iw7rBmKe240)
+
+### Héritage
+
+* Flêche en triangle pleine si "extends", pointillé si "implements"
+
+![héritage](http://www.plantuml.com/plantuml/svg/VO_DIaGn34RtVOfmL_xGucnd8IFYLWPyWjfcXa2QIfAA8BwxNCGwW-8wvno-xCop-cWSI1pra0l27jMw2C9xk3wYF_PsSRc59rUIO_W8eN0sWxjdSyt59qtjXR6Xk9qMelJsMzvhFw0P3WLySvHwrfkkPSwak0Nkf_Q3ZqfP_3ztmlTzgAqn4YSVZ7-yKdKTiq8wVkxnbVWSd_ru-os5EMQvIMcpG8oma5XHSjYaTBLyBGWxb3eQVm80)
+
+### Dépendance
+
+* Trait en pointillé. Peut être fléché
+* Ne se traduit pas avec un attribut de classe
+
+![dependance](http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuKhEIImkLd0jAKt9JCmhKQZcqar9B4drIymiBaxCIqwrKd01ShcqanDpaajpKeiSqrCrDAqKClDAk6gve9g1OivWwSII_2A5QbJ5QKNvkK0Ze0OXjC9jrDEpGpM1oo4rBmNeD000)
+
+### Exemple complet
+
+![example](http://www.plantuml.com/plantuml/svg/dL9DRzim3BthLn0v9TbYRDSSYWPkDWpeHv7cDkoWohGdJ9O2YXe63FtlaoF8iJNaqal4q8zyxv6yzIo9Gs-4mPQ17P3kVZ8qcb2nTbQSfFebEuGJadVM8lmL0DeoKYiLmlCq3V2XGtvq_NArXHScRRkOVHFnHndfFUmQGkypU4C1CoubVcjZy4hfgsUIYaT2tPyCzcZP5o8srlMp7W02BfZrPdEJXOX8a0ssZdevM2uS7b25MXeLZ6H7sITw7Zui3-Y3OSdVrp-syEgSGMbNPzOi_5uhj0gBDXFr9S6bz45wHdfFvPrJCIFvFRMr2-JpYhHbpQ5OIaP-cOtiAXXjwE4hoIOl_lvRlN-iz-VuOVTot1_EuTrJVNmwx8upZcToxR2gG81_66tp_oaayHSnSS69Ja1wpvd5vqLXMi2aUyAWzQWxY_2fMY_I90IaDpQeXcG4vd2a56_Z6Mdh5UdJE9NaOi-XqTBoLG_bNQt6QvfD8vzRNezrZ5jeZPESS2DJykE3PaXYavaIaEH6pDGDm3AZFgQw5LHLDR97ksENc2_7Elyx86ukfRVHVkZDFm00)
+
+## TD : Diagramme de classe de Schotten Totten
