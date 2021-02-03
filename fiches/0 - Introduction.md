@@ -30,6 +30,7 @@ Journal officiel du 19/02/1984
 * Crise du logiciel fin 1960
 * Problèmes de gestions des coûts, des délais, de qualités, de conformité, de maintenabilité
 
+![](https://res.infoq.com/articles/standish-chaos-2015/en/resources/1Resolution%20Agile%20Waterfall.jpg)
 ![](https://i.imgur.com/uBhlTz8.jpg)
 
 ## Objectifs du cours
