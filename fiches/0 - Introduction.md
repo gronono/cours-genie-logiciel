@@ -42,8 +42,11 @@ Journal officiel du 19/02/1984
 
 ## Organisation
 
-* 30H = 15 semaines de cours
-* FIXME Modalités de contrôle : 4 notes (dont 1 seconde chance)
+* 30H = 15 semaines de cours jusqu'au 26/05
+* 3CC (moyenne) + 1CC seconde chance
+* 2 CC d'une heure le 09/03 et le 13/04
+* + 1 CC de deux heures le 18/05
++ 1 seconde chance = projet
 
 ## Le projet : Schotten Totem
 
