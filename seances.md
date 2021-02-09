@@ -1,3 +1,9 @@
+# Modalité des notes
+
+Règle D : 3CC + 1CC
+Formule : MAX((CC1+CC2+CC3)/3;CC4)
+Si la note du CC4 est supérieure à la moyenne pondérée issue de CC1, CC2 et CC3, celle-ci remplace cette moyenne pondérée
+
 # Date des séances 
 
 * 09/02
