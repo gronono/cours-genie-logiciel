@@ -1,2 +1,6 @@
 schotten-totten/
 /*.txt
+/out
+.idea/
+*.iml
+out/
