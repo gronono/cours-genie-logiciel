@@ -11,17 +11,18 @@ public class CoffeeMachine {
         this.index = index;
     }
 
-    public Coffee takeCoffee() {
+    // Cette méthode doit être synchronisée si on veut que le mode concurrent fonctionne
+    public /* synchronized */ Coffee takeCoffee() {
+        busy = true;
         try {
-            busy = true;
             Thread.sleep(10);
-            delivered++;
-            return new Coffee();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
-        } finally {
-            busy = false;
         }
+        delivered++;
+        Coffee coffee = new Coffee();
+        busy = false;
+        return coffee;
     }
 
     public boolean isBusy() {
