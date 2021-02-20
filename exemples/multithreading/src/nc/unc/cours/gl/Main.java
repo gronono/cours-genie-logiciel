@@ -1,4 +1,4 @@
-package codingcode.wtf1;
+package nc.unc.cours.gl;
 
 import java.util.ArrayList;
 import java.util.List;
