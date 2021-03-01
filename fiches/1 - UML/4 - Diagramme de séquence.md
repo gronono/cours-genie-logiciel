@@ -5,7 +5,7 @@
 
 ## Exemple
 
-!(exemple)[https://www.editions-eni.fr/Open/download/71dd6b01-482e-44cc-94b7-d5ab5e22289c/images/05so16.png]
+![exemple](https://www.editions-eni.fr/Open/download/71dd6b01-482e-44cc-94b7-d5ab5e22289c/images/05so16.png)
 
 ## Description
 
@@ -21,5 +21,5 @@
 * Répétion des enchainements
 * Le groupe peut avoir un nom en haut à gauche dans un rectangle biseauté
 
-!(regroupement)[https://laurent-audibert.developpez.com/Cours-UML/images/fig7_15.png]
+![regroupement](https://laurent-audibert.developpez.com/Cours-UML/images/fig7_15.png)
 
