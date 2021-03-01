@@ -15,7 +15,7 @@
 * Interraction entre les objets via une flèche simple pleine lors d'une appel, pointillée lors d'un retour
 * La durée de vie d'un objet est indiqué par un rectangle vertical
 
-## Regroupement / boucle
+## Regroupement - boucle
 
 * Séparation des enchainements
 * Répétion des enchainements
