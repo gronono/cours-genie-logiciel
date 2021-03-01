@@ -21,5 +21,6 @@
 * Répétion des enchainements
 * Le groupe peut avoir un nom en haut à gauche dans un rectangle biseauté
 
-![regroupement](https://laurent-audibert.developpez.com/Cours-UML/images/fig7_15.png)
+
+![regroupement](https://i2.wp.com/d1dlalugb0z2hd.cloudfront.net/handbooks/software-design-handbook/sequence-diagram/09-sequence-diagram-example.png?resize=731%2C439&ssl=1)
 
