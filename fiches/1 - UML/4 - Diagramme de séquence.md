@@ -10,7 +10,7 @@
 ## Description
 
 * Les objets (ou les acteurs) sont en haut du diagramme
-* Le nom de l'objet est indiqué avec :<object>
+* Le nom de l'objet est indiqué avec :&lt;object>
 * : indique que c'est une instance
 * Interraction entre les objets via une flèche simple pleine lors d'une appel, pointillée lors d'un retour
 * La durée de vie d'un objet est indiqué par un rectangle vertical
