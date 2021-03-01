@@ -29,8 +29,8 @@
 ## Quelques styles d'architecture
 
 * Architecture n-tiers
-* Modèle en couches
 * Service Oriented Architecture, Web Oriented Architecture, Microservices
+* Modèle en couches
 * Architecture en oignons
 * Architecture Hexagonale
 * Clean Architecture

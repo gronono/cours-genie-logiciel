@@ -11,8 +11,8 @@ public class CoffeeMachine {
         this.index = index;
     }
 
-    // Cette méthode doit être synchronisée si on veut que le mode concurrent fonctionne
-    public /* synchronized */ Coffee takeCoffee() {
+
+    public synchronized  Coffee takeCoffee() {
         busy = true;
         try {
             Thread.sleep(10);
