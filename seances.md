@@ -22,4 +22,4 @@ Si la note du CC4 est supérieure à la moyenne pondérée issue de CC1, CC2 et 
 * 18/05 CC3 2H
 * 26/05 
 
-CC4 = projet
+CC4 = projet Schotten Totten à rendre avant le 16/05
