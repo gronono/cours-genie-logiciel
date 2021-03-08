@@ -9,6 +9,19 @@
 > His conclusion was that “Architecture is about the important stuff. Whatever that is”
 * Autre définition de Fowler : tout ce qui est difficilement changeable (modifiable)
 
+## Processus d'élaboration
+
+* Diviser pour mieux régner => complexité(A + B) > complexité(A) + complexité(B)
+* Raisonnement par niveau d'abstraction => language + données + métier + IHM = application
+* Processus intératif: résoudre les problèmes les uns après les autres
+
+Exemple pour aller à la tour Eiffel à Paris :
+Grandes lignes : Prendre l'avion pour aller à Tokyo, Prendre l'avion pour Paris
+Raffinement 1 : Prendre la navette sur Tontouta, prendre l'avion à Tokyo, prendre l'avion pour Paris, prendre le métro jusqu'à la tour Eiffel
+....
+Jusqu'à un niveau de détails suffisants.
+
+
 ## Bonne architecture ?
 
 * Réduire les coûts: réutilisation, *diminution du temps de maintenance*
@@ -25,6 +38,7 @@
 * Extensibilité (évolutions)
 * Maintenabilité (bugs)
 * Convivialité (apprentissage par les autres)
+
 
 ## Quelques styles d'architecture
 
