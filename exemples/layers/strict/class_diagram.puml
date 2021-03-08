@@ -1,0 +1,44 @@
+@startuml
+left to right direction
+
+skinparam linetype ortho
+
+package dao {
+  class UtilisateurEntity {
+    -login: String
+    -nomComplet: String
+    -dateNaissance: LocalDate
+    +getters() / setters()
+  }
+
+  class UtilisateurDao {
+    +findByLogin(String): UtilisateurEntity
+  }
+  UtilisateurDao ..> UtilisateurEntity
+}
+
+package service {
+  class Utilisateur {
+    -login: String
+    -nomComplet: String
+    -dateNaissance: LocalDate
+    +getters()
+  }
+
+  class UtilisateurService {
+    +findByLogin(String): Utilisateur
+  }
+  UtilisateurService --> UtilisateurDao
+  UtilisateurService ..> UtilisateurEntity
+  UtilisateurService ..> Utilisateur
+}
+
+package ihm {
+    class ConsoleIHM {
+        +run()
+    }
+    ConsoleIHM --> UtilisateurService
+    ConsoleIHM ..> Utilisateur
+}
+
+@enduml
