@@ -22,7 +22,7 @@
 ## 3 tiers
 
 * Très commun
-* 3 éléments souvent : client, application, base de données
+* 3 éléments souvent : client, serveur d'application, base de données
 * Le client est la partie web
 * L'application réponde aux demandes du client
 * et délègue la lecture et la sauvegarde des données à une base
