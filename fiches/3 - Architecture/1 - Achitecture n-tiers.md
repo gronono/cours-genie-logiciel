@@ -7,7 +7,7 @@
 
 ## 1 tiers
 
-* Client simple sans serveur
+* Client simple sans serveur; ie client lourd
 * Exemple Word
 * Analogie : vous vous faîtes à manger
 
