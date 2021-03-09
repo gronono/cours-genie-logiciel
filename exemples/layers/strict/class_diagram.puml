@@ -23,6 +23,7 @@ package service {
     -nomComplet: String
     -dateNaissance: LocalDate
     +getters()
+    +getAge(): int
   }
 
   class UtilisateurService {

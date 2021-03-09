@@ -1,0 +1,40 @@
+@startuml
+left to right direction
+skinparam linetype ortho
+
+package dto {
+    class UtilisateurDto {
+        -login: String
+        -nomComplet: String
+        -dateNaissance: LocalDate
+        +getters() / setters()
+        +getAge(): int
+      }
+}
+
+package dao {
+  class UtilisateurDao {
+    +findByLogin(String): UtilisateurDto
+  }
+  UtilisateurDao ..> UtilisateurDto
+}
+
+package service {
+  class UtilisateurService {
+    +findByLogin(String): UtilisateurDto
+  }
+  UtilisateurService --> UtilisateurDao
+  UtilisateurService ..> UtilisateurDto
+}
+
+package ihm {
+    class ConsoleIHM {
+        +run()
+    }
+    ConsoleIHM --> UtilisateurService
+    ConsoleIHM ..> UtilisateurDto
+}
+
+
+
+@enduml
