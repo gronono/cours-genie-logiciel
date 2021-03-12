@@ -45,4 +45,3 @@ Ces objets sont visibles par toutes les couches
 
 * On mélange la façon dont les données sont stockés/lues, avec la façon dont les données sont représentés par le métier et la façon dont elles sont affichées
 
-
