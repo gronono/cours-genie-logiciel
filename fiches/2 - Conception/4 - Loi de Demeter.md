@@ -3,16 +3,18 @@
 * Law of Demeter (LoD)
 * Loi de la connaissance minimale
 * Un objet ne connaitre que ses voisins
-* On ne parle pas des inconnus
+* On ne parle pas à des inconnus
 
-Ne pas faire 
+*Ne pas faire *
+
 ![](http://www.plantuml.com/plantuml/svg/DOwn3W8n241tleBnBkQ-mCISkuE3Fz2qU3Qfa036mVZlNXjSUUy1gtbIVpqRDBexkg3MxU5OgbBsAWov9JEyafemVk2maPzBKJARPlW6ZadmcxnvceyxZMnPJdybWgw4VP6S-gMnBgnHT0TMuhA_zmC0)
 
 ```
 person.getAddress().getTown().getLocation()
 ```
 
-Faire
+*Faire*
+
 ![](http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuSf9JIjHACbNACfCpoXHICaiIaqkoSpFuqhEIImkLWX8BIhEprEevj9EJornJ4afIYqkrj04ytpoanD1Ae7SMgXgg0Aeyf3yyZniQg5cwkhQmJH0jOCqA5HZQe2g0ka0g-5oICrB0ReT0000)
 
 ```
