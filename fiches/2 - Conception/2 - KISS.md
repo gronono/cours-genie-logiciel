@@ -10,12 +10,12 @@
 * Ne pas faire de l'over-engineering
 * Garder le système simple est compliqué
 
-* Exemples :
+*Exemples :*
 - Machine Learning à la mode => pas nécessaire pour faire de la comptabilité
 - Idem avec le système de Block-Chain,
 - Signatures numériques (clés de chiffrements asymétriques + serveur d'horadatage + token physique d'identification) vs un bouton de validation
 
-* Pour réduire rendre plus simple un programme :
+*Pour réduire rendre plus simple un programme :*
 - bien choisir les noms des variables, méthodes, objets, packages, ...
 - éviter les états globaux
 - réduire les changements d'états (voir les interdire)
