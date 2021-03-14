@@ -5,7 +5,7 @@
 * Un objet ne connaitre que ses voisins
 * On ne parle pas à des inconnus
 
-*Ne pas faire *
+*Ne pas faire*
 
 ![](http://www.plantuml.com/plantuml/svg/DOwn3W8n241tleBnBkQ-mCISkuE3Fz2qU3Qfa036mVZlNXjSUUy1gtbIVpqRDBexkg3MxU5OgbBsAWov9JEyafemVk2maPzBKJARPlW6ZadmcxnvceyxZMnPJdybWgw4VP6S-gMnBgnHT0TMuhA_zmC0)
 
