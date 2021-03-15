@@ -105,7 +105,7 @@ main(String [] args) {
 
 *Ne pas faire :*
 
-![](hhttp://www.plantuml.com/plantuml/svg/DSn12W8n38NXVK-HfU8bPk7MGuJsZHQIE3I96_7kLegxxy7ZtpnuHAgKRe6nSmNTdWrAxq9qQPtbTFxfmNRFOzbXRMcWehymnwUKAknEL-oS4YlIzH0eBFnVdSSDrbBb2m00)
+![](http://www.plantuml.com/plantuml/svg/DSn12W8n38NXVK-HfU8bPk7MGuJsZHQIE3I96_7kLegxxy7ZtpnuHAgKRe6nSmNTdWrAxq9qQPtbTFxfmNRFOzbXRMcWehymnwUKAknEL-oS4YlIzH0eBFnVdSSDrbBb2m00)
 
 *Faire :*
 
