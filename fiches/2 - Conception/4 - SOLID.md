@@ -14,10 +14,12 @@
 * En pratique une classe doit avoir une et une seule raison d'être modifiée
 * Séparer aussi les aspects métiers des aspects techniques
 
-Ne pas faire
+*Ne pas faire*
+
 ![](http://www.plantuml.com/plantuml/svg/LOzB2a8n34NdNKM7YhY71tw63dG5fRsy5-Yd9Eb0nBrRuaGdRSu9bqiMqS0wIdOn1n5_qP4eLFKlvu-rbVbIbSZKbLeLamhxHm6tqqpZCVeKqdA2iVE7RuYnsqz8a3zUKS7WAyKDTyZ86bH-DsVgkHMOaa12V9kjXeou1Lx1rcIgXoTuJc-teAPvomS0)
 
-Mais plutôt
+*Mais plutôt*
+
 ![](http://www.plantuml.com/plantuml/svg/RPBFQiCm38VlUOeS4zRs0SOeXNKTWpB6SjdL95fhy9yWouCn-kwpWnsKEbTzFqbVv1mS2IIlLTKhuLpzGdwGmb3zLzLROtLrI-3Dk1xbIDAQn0W2vENjTZ_tbrqTu8_i8JO_oAcCqEJufZvPr2BcsaVU5S83k3dFI1lGjpG3AxbvNXXobewU6DmpMwQps-tvlkJz2Suh4iIbdP1EuhkbGkC21X3m9Fihv4xNj67X_PnuebAYYArBBUO7fTjQ_JMw2B8OdPEQ8FWudff5hkNqwzmjQNHV7pkvBL1XNoQIw56EocfWHvrlbz3yW560nVFOZE_P-btptcU119qVfsSqNWFQ-9vM3V4NpdJj_yrieOpGNmLU02VQvCn6MqDHFMP6yGjO8hQEVrQkLGSmWzVg7m00)
 
 ## Open-closed Principle
@@ -26,9 +28,9 @@ Mais plutôt
 * Fermé aux modifications
 * L'ajout de fonctionnalités ne doit modifier le code existant
 
-Ne pas faire 
+*Ne pas faire*
 
-```
+```java
 class Calculator {
     public double calculate(char operator, double a, double b) {
         switch (operator) {
@@ -40,8 +42,9 @@ class Calculator {
 }
 ```
 
-Mais
-```
+*Mais*
+
+```java
 interface Operator {
     double perform(double a, double b);
 }
@@ -62,8 +65,9 @@ class Calculator {
 
 Si B est une sous-classe de A, alors on peut utiliser B partout où A est attendu et toujours avoir le même comportement.
 
-Exemple de non-respect :
-```
+*Exemple de non-respect :*
+
+```java
 class Rectangle {
     private int width;
     private int height;
@@ -99,11 +103,11 @@ main(String [] args) {
 * Les clients (utilisateurs de l'interface) ne doivent pas dépendre de méthodes qui n'utilisent pas
 * Se mettre à la place de celui qui va utiliser l'interface et de celui qui va l'implémenter
 
-Ne pas faire :
+*Ne pas faire :*
 
 ![](hhttp://www.plantuml.com/plantuml/svg/DSn12W8n38NXVK-HfU8bPk7MGuJsZHQIE3I96_7kLegxxy7ZtpnuHAgKRe6nSmNTdWrAxq9qQPtbTFxfmNRFOzbXRMcWehymnwUKAknEL-oS4YlIzH0eBFnVdSSDrbBb2m00)
 
-Faire :
+*Faire :*
 
 ![](http://www.plantuml.com/plantuml/svg/RSun3i8m38NXFQVm2893L8ALGrZfArYodIfnM53lJYa34h2zvVlrXXPSevicyK2TE8CkPOITYZjoI75w9AB3AAox_MlTsAzzNlVoQyowI-OFQ_3npIeov8xDfQpS6fqnSTVOB8dD2eD7-pvm_5zVqh36k-aJ)
 
@@ -112,7 +116,7 @@ Faire :
 * les classes de haut niveau ne devraient pas dépendre directement des classes de bas niveau, mais d’abstractions (interfaces)
 * les abstractions ne doivent pas dépendre des détails. Les détails (implémentation) doivent dépendre des abstractions
 
-Exemple
+*Exemple*
 
 ![](http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuKhEIImkLd1Ep4akpKaiIIqj2aciI5Mevb9Gq4u62wOMQUJcvvKavfLOAQJaboRbf6h265orKEqkJcxvfKLvcSN5O0DAAo06f6NcfO1u6iWwqAtIrRN3rC_ba9gN0dGU0000)
 

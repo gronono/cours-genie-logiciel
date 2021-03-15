@@ -16,3 +16,14 @@
 * Préférer la délagation à l'héritage
 * Utiliser l'héritage que lorsque la sous-classe est réellement un sous-type
 * Est-ce qu'un cercle est un point ? Si franchement oui => héritage, sinon délégation
+
+* Héritage est rigide :
+- ajout de type intermédiaire,
+- support partiel
+- modification du parent (exemple constructeur)
+
+* Délégation est souple
+- mais plus verbeux
+- un peu DRY mais sans logique
+- meilleur contrôle sur ce qu'on expose
+

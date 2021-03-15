@@ -1,0 +1,1 @@
+General responsibility assignment software principles
