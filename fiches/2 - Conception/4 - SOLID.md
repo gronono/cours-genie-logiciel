@@ -83,6 +83,7 @@ main(String [] args) {
     System.out.println(calculateArea(r)); // Affiche 50
 }
 class Carre extends Rectangle {
+// l'implementation est caché
 }
 main(String [] args) {
     Rectangle r = new Carre();
