@@ -1,5 +1,6 @@
 # Introduction à la conception
 
+* Concevoir = modéliser = métier du développeur
 * Connaitre les paradigmes
 * Principes généraux à garder en têtes: KISS, SOLID, DRY, ....
 * Uniquement des principes
