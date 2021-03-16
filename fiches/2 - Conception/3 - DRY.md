@@ -4,7 +4,7 @@
 * Évitez la duplication de code
 * S'applique au code mais aussi aux algos
 * Ne pas réinventer la roue : utiliser des librairies
-* Technique pour éviter la répition:
+* Exemples de techniques pour éviter la répition:
 - Héritage
 - Délégation
 - methodes "utilitaires"
