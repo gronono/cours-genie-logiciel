@@ -43,15 +43,15 @@ public class LaDanseDesCanards {
 Le programme doit produire : 
 
 > Je suis un canard colvert :
-> coin-coin
-> je palme
-> je bat des ailes
-> -------
-> Je suis un canard fuligule :
-> coin-coin
-> je palme
-> je bat des ailes
-> -------
+coin-coin
+je palme
+je bat des ailes
+-------
+Je suis un canard fuligule :
+coin-coin
+je palme
+je bat des ailes
+-------
 
 
 ### Partie 2:
@@ -65,9 +65,9 @@ Ajouter le canard en plastique dans la méthode main
 La sortie du programme pour le canard en plastique doit être:
 
 > Je suis un canard en plastique :
-> pouik-pouik
-> je flotte
-> -------
+pouik-pouik
+je flotte
+-------
 
 
 ### Partie 3
@@ -81,8 +81,8 @@ Ajouter le leurre dans la méthode main
 La sortie du programme pour le leurre doit être:
 
 > Je suis un canard en bois :
-> je flotte
-> -------
+je flotte
+-------
 
 
 ### Partie 4
@@ -92,5 +92,5 @@ Un canard blessé ne peut plus voler, et devient silencieux.
 La sortie du programme pour un canard colvert blessé doit être
 
 > Je suis un canard colvert blessé :
-> je palme
-> -------
+je palme
+-------
