@@ -49,7 +49,7 @@ http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuKhEIImkLd3AJonAKQZcqaufIYpN2CX
 
 http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuKfCBialKYZ8IQnCBUA2K0gwkdOAJlc9HIaALWefHOdb6X1n7ONYalpaR4qki1nOLJ180APAamlCHT6U3AIGr0U03GAA9wQaE0C5DK3ocbm127iz4lDICEGTKlDIW8u50000
 
-Attention : aux GOD classes. Compris entre Couplage et Spécialiste de l'info
+Attention : aux GOD classes. Compromis entre Couplage et Spécialiste de l'info
 
 ## Contrôleur
 
