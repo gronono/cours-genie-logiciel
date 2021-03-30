@@ -13,7 +13,7 @@
 * À celui qui connait les informations permettant de résoudre la responsabilité.
 
 * Exemple dans Schotten Totten
-- Qui sait si c'est au joueur 1 ou 2 de joueur ? la classe Game, Board, Joueur ?
+- Qui sait si c'est au joueur 1 ou 2 de jouer ? la classe Game, Board, Joueur ?
 - Qui sait piocher une carte ? La classe Game, la classe Board, la classe Stock ?
 
 ## Créateur
