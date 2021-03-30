@@ -15,7 +15,7 @@ Un ordinateur ne traite que des nombres. Tout est un nombre même les caractère
 * 7 bits 
 * Simple mais pas caractères accentués, pas caractères Cyrillic, ....
 
-![](https://fr.wikipedia.org/wiki/Fichier:ASCII-Table-wide.svg)
+https://fr.wikipedia.org/wiki/Fichier:ASCII-Table-wide.svg
 
 * Exemple (en hexa) A = 41, É, œ, € n'existent pas, 
 
