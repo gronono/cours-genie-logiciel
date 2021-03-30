@@ -88,7 +88,7 @@ Si on lit un fichier encodé avec ISO-8859-1 avec ISO-8859-15, globalement ça m
 
 * XML et HTML indique à l'intérieur du fichier quel encodage doit être utilisé pour les lire
 * XML : &lt;?xml version="1.0" encoding="UTF-8"?&gt;
-* HTML : header HTTP "Content-Type: text/html; charset=UTF-8" et/ou "<meta charset="UTF-8">"
+* HTML : header HTTP "Content-Type: text/html; charset=UTF-8" et/ou "&lt;meta charset="UTF-8"&gt;"
 * mais attention à ce que l'information soit juste !!
 
 ## Diagnostique
@@ -97,5 +97,5 @@ Si on lit un fichier encodé avec ISO-8859-1 avec ISO-8859-15, globalement ça m
 * Si le fichier commence ï»¿ => lecture d'un fichier UTF-8
 * Regarder chacun des éléments depuis la source de données (exemple base de données) jusqu'au producteur du fichier (exemple serveur web)
 * Essayer d'identifier les caractères spéciaux (souvent les accents, les trémas, les retours à la ligne, ...) 
-* En Java: ne jamais utiliser les méthodes qui convertissent un byte [] en String (et vise versa) sans spécifier l'encodage ! (Idem pour les InputStream / OutStream).
+* En Java: ne jamais utiliser les méthodes qui convertissent un byte [] en String (et vise versa) sans spécifier l'encodage ! (Idem pour les InputStream / OutputStream).
 
