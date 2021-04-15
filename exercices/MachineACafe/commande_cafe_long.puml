@@ -1,0 +1,41 @@
+@startuml
+Client -> Distributeur: inserer(100F)
+Distributeur -> Monnayeur: inserer(100F)
+Monnayeur -> AnalyseurPiece: analyser(100F)
+AnalyseurPiece -> Piece: findPieceCorrespondante(pieceData)
+Piece --> AnalyseurPiece: Piece.CENT
+AnalyseurPiece --> Monnayeur: Piece.CENT
+
+Client -> Distributeur: inserer(20F)
+Distributeur -> Monnayeur: inserer(20F)
+Monnayeur -> AnalyseurPiece: analyser(20F)
+AnalyseurPiece -> Piece: findPieceCorrespondante(pieceData)
+Piece --> AnalyseurPiece: Piece.VINGT
+AnalyseurPiece --> Monnayeur: Piece.VINGT
+
+Client -> Distributeur: ajouterSucre()
+Client -> Distributeur: ajouterSucre()
+
+Client -> Distributeur: commander(Boisson.CAFE_LONG)
+Distributeur -> Monnayeur: getMontantInsere()
+note left
+  vérification du montant inséré
+end note
+Monnayeur  --> Distributeur: montant
+Distributeur -> Distributeur: findUniteFor(Ingredient.GOBELET): unite
+Distributeur -> UniteDistribution: distribuerUneDose()
+Distributeur -> Boisson : getRecette()
+Boisson --> Distributeur: recette
+loop recette.getRecetteIngredients()
+  Distributeur -> Distributeur: findUniteFor(recetteIngredient.ingredient): unite
+  loop cetteIngredient.doses
+    Distributeur -> UniteDistribution: distribuerUneDose()
+  end
+end
+alt distributeur.nbSucres != 0 && boison.isSucre()
+  Distributeur -> Distributeur: findUniteFor(Ingredient.SUCRE): unite
+  loop distributeur.nbSucres
+    Distributeur -> UniteDistribution: distribuerUneDose()
+  end
+end
+@enduml

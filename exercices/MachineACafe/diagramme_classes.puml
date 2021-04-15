@@ -1,0 +1,102 @@
+@startuml
+package monnayeur {
+  interface SpectreElectromagnetique {
+  }
+
+  class PieceData {
+    -poids: int
+    -diametre: float
+  }
+  PieceData -> SpectreElectromagnetique
+
+  enum Piece {
+   {static} DIX
+   {static} VINGT
+   {static} CINQUANTE
+   {static} CENT
+   {static} findPieceCorrespondante(PieceData): Optional<Piece>
+   -valeur: int
+  }
+  Piece --> PieceData
+
+  class Monnayeur {
+   -montantInsere: int
+   -stock: Map<Piece, int>
+   +rendreMonnaie()
+   +insererPiece(piece)
+  }
+  note right of Monnayeur::rendreMonnaie
+     Calcul les pièces à rendre si possible,
+     sinon PasAssezDePiecesException
+  end note
+  Monnayeur ..> Piece
+
+  class PasAssezDePiecesException <<Exception>> {}
+  Monnayeur ..> PasAssezDePiecesException
+
+  interface AnalyseurPiece {
+    +analyser(): Piece
+  }
+  Monnayeur --> AnalyseurPiece
+}
+
+package boisson {
+  enum Boisson {
+    {static} CAFE_LONG
+    {static} CAFE_COURT
+    {static} VERRE_EAU
+
+    -prix: int
+    -sucré: bool
+  }
+
+  enum Ingredient {
+   CAFE
+   EAU
+   SUCRE
+   GOBELET
+   TOUILLETTE
+  }
+  class Recette {
+  }
+  Boisson --> Recette
+
+  class IngredientRecette {
+    -doses: int
+  }
+  IngredientRecette --> Ingredient
+
+  Recette *--> "1..n" IngredientRecette
+}
+
+package distributeur {
+ class Distributeur {
+  -nbSucres: int
+  -unitesDistributions: Map<Ingredient, UniteDistribution>
+  -findUniteDistributionPout(Ingredient): UniteDistribution
+  -verifierMontant(Boisson)
+  +ajouterSucre(): void
+  +enleverSucre(): void
+  +commander(Boisson): void
+  +inserer(PieceData): void
+  +rendreMonnaie(): void
+ }
+ note right of Distributeur::nbSucres
+   Entre 0 et 5
+ end note
+ Distributeur ..> Boisson
+ Distributeur ..> PieceData
+ Distributeur --> Monnayeur
+ Distributeur ..> Ingredient
+ class UniteDistribution {
+   +UniteDistribution(Ingredient)
+   +distribuerUneDose()
+ }
+ Distributeur *--> "2..n" UniteDistribution
+ note "Un distributeur par ingrédient" as N1
+   Distributeur .. N1
+ N1 .. UniteDistribution
+ UniteDistribution --> "distribue" Ingredient
+}
+
+@enduml
