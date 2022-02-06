@@ -32,6 +32,7 @@ Journal officiel du 19/02/1984
 
 ![](https://res.infoq.com/articles/standish-chaos-2015/en/resources/1Resolution%20Agile%20Waterfall.jpg)
 ![](https://i.imgur.com/uBhlTz8.jpg)
+![](https://3.bp.blogspot.com/-ilMjE1Gh3Yg/VpUAmd-6TWI/AAAAAAAAAbg/-FJ08zxN42s/s1600/WFTPM.png)
 
 ## Objectifs du cours
 
@@ -44,11 +45,9 @@ Journal officiel du 19/02/1984
 
 * 30H = 15 semaines de cours jusqu'au 26/05
 * 3CC (moyenne) + 1CC seconde chance
-* 2 CC d'une heure le 09/03 et le 13/04
-* + 1 CC de deux heures le 18/05
-+ 1 seconde chance = projet
 
-## Le projet : Schotten Totem
 
-[![Règles Schotten Totem](https://img.youtube.com/vi/6ZfOKEh9amk/0.jpg)](https://www.youtube.com/watch?v=6ZfOKEh9amk)
+## Le projet : Mille bornes
+
+https://www.jeuxdujardin.fr/files/regles/rdj-mb-classique-poche-et-pegbo---ok.pdf
 
