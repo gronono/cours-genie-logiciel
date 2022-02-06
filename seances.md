@@ -6,20 +6,20 @@ Si la note du CC4 est supérieure à la moyenne pondérée issue de CC1, CC2 et 
 
 # Date des séances 
 
-* 09/02
-* 16/02
-* 23/02
-* 02/03
-* 09/03 CC1 1H
-* 16/03
-* 23/03
-* 30/03
-* 13/04 CC2 1H
-* 21/04
-* 27/04
-* 04/05
-* 11/05
-* 18/05 CC3 2H
-* 26/05 
+* 08/02
+* 15/02
+* 22/02
+* 01/03
+* 08/03 CC2
+* 15/03
+* 22/03
+* 29/03
+* 12/04 CC3
+* 19/04
+* 26/04
+* 03/05
+* 10/05
+* 17/05 CC4 (seconde chance) 
+* 24/05 
 
-CC4 = projet Schotten Totten à rendre avant le 16/05
+CC1 = projet avant le 16/05
