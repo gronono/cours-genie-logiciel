@@ -8,9 +8,10 @@ Coder un point. Pour rappel un point dans un espace est défini par son abscisse
 
 L'API doit aussi supporter les coordonnées polaires : (r, θ).
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Polar_coordnates.PNG" height="150">
+
 On doit aussi pouvoir calculer la distance entre deux points: ![](https://render.githubusercontent.com/render/math?math=d(AB)%20=%20\sqrt{(x_B%20-%20x_A)^2%20+%20(y_B%20-%20y_A)^2})
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Polar_coordnates.PNG" height="150">
 
 ## Le cercle
 
