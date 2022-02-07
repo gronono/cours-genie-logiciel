@@ -10,7 +10,7 @@ L'API doit aussi supporter les coordonnées polaires : (r, θ).
 
 On doit aussi pouvoir calculer la distance entre deux points.
 
-![](https://fr.wikipedia.org/wiki/Coordonn%C3%A9es_polaires#/media/Fichier:Polar_coordnates.PNG)
+![](https://upload.wikimedia.org/wikipedia/commons/f/f3/Polar_coordnates.PNG)
 
 ## Le cercle
 
